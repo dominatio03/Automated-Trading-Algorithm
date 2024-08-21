@@ -12,7 +12,7 @@ example_strategies <- c("fixed",
                         "test1",
                         "acc_dist",
                         "Final",
-                        "combined"
+                        "team3"
                         )
 
 example_params <- list(
@@ -40,7 +40,7 @@ example_params <- list(
                                    risk_per_trade = c(0.0005, 0.003, 0, 0, 0, 0, 0, 0, 0.07, 0.03),
                                    budget = c(250000, 250000, 0, 400000, 200000, 0, 100000, 0, 50000, 0)
                                    ),
-                    "combined" = list(adx_n = c(12,12,12,8,8,10,12,12,12,12),
+                    "team3" = list(adx_n = c(12,12,12,8,8,10,12,12,12,12),
                                                  macd_fast_period =  c(9, 9, 9, 9, 9, 9, 9, 9, 9, 9),
                                                  macd_slow_period = c(21.5,21.5,21.5,21.5,26,21.5,21.5,21.5,21.5,21.5),     
                                                  macd_signal_period = c(7,7,7,9,9,7,7,7,7,7),     
